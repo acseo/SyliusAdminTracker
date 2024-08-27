@@ -20,7 +20,7 @@ sylius_grid:
                     type: twig
                     label: sylius.ui.user
                     options:
-                        template: "@SyliusAdmin/Grid/Field/admin.html.twig"
+                        template: "@SyliusAdminTrackerPlugin/Grid/Field/admin.html.twig"
                 action:
                     type: string
                     label: sylius.ui.action
@@ -29,7 +29,7 @@ sylius_grid:
                     type: twig
                     label: sylius.ui.old_value
                     options:
-                        template: "@SyliusAdmin/Grid/Field/value.html.twig"
+                        template: "@SyliusAdminTrackerPlugin/Grid/Field/value.html.twig"
             filters:
                 createdAt:
                     type: date
